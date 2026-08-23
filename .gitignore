@@ -1,0 +1,20 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local temporary files
+*.tmp
+*.temp
+*.bak
+
+# Python / Node cache
+__pycache__/
+*.pyc
+node_modules/
+
+# Local secrets
+.env
+.env.*
+
