@@ -43,13 +43,13 @@ Goal -> Plan -> Execute -> Judge -> Improve -> Deliver
 输入目标：
 
 ```text
-我要参加 OPC 智能体大赛，项目是 Competition Agent。
+我要参加一场项目制比赛，项目是 Competition Agent。
 ```
 
 Agent 自动完成：
 
 - 建立项目定义
-- 读取 OPC 智能体赛道要求
+- 读取比赛规则和交付要求
 - 生成 Roadmap
 - 产出 Skill 说明
 - 产出 Demo 说明
@@ -86,4 +86,3 @@ Competition Agent 和普通 AI 的区别是：
 Competition Agent 的第一个用户就是我们自己。
 
 大家现在看到的 Competition Agent 本身，就是 Competition Agent 管理并推进完成的第一个竞赛项目。
-

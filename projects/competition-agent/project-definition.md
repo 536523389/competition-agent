@@ -24,13 +24,13 @@ Competition Agent 是独立母项目，不依附于某一场比赛。
 
 它的长期目标是服务多类项目制竞赛，包括创新创业、智能体、数学建模、挑战杯、互联网+ 等场景。
 
-OPC 智能体大赛只是 V1 的第一个验证分支，用来证明 Competition Agent 能在真实比赛中完成从目标到提交成果的闭环。
+V1 的第一个比赛适配分支，用来证明 Competition Agent 能在真实比赛中完成从目标到提交成果的闭环。
 
 ## V1 目标
 
 V1 不追求一次性支持所有比赛。V1 选择一场真实比赛作为验证场景。
 
-V1 要证明的不是“Competition Agent 只适合 OPC”，而是：
+V1 要证明：
 
 > 给 Competition Agent 一个真实比赛和一个参赛目标，它能把用户从“我要参赛”推进到“形成可提交成果”。
 
@@ -119,12 +119,12 @@ V1 不要求真的实现四个独立 Agent，可在一个 Skill 工作流中体�
 
 Competition Agent 的第一个用户就是我们自己。
 
-Competition Agent 的第一个验证分支，就是帮助我们完成 OPC 智能体大赛参赛。
+Competition Agent 的第一个验证分支，就是帮助我们完成一次真实比赛参赛。
 
 演示链路：
 
 ```text
-目标：参加 OPC 智能体大赛
+目标：参加一场真实项目制比赛
 -> Competition Agent 读取真实规则
 -> 分析评分标准
 -> 建立 Competition Agent 项目

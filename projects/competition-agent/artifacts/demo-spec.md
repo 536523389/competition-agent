@@ -15,7 +15,7 @@ Competition Agent builds Competition Agent
 ## Demo 输入
 
 ```text
-我要参加 OPC 智能体大赛。
+我要参加一场项目制比赛。
 我的项目是 Competition Agent。
 目标是提交一个 GitHub 项目链接，展示它能管理并推进竞赛项目。
 ```
@@ -57,6 +57,6 @@ Agent 汇总可提交成果包。
 - 不展示精确获奖概率。
 - 不展示未验证的大型获奖案例库。
 
-## 当前最大缺口
+## Demo 说明重点
 
-需要在演示中讲清楚：Competition Agent 是独立母项目，OPC 是第一个比赛验证分支，而不是项目本身只服务 OPC。
+演示中需要讲清楚：Competition Agent 先接收参赛目标，再将规则、任务、成果和评审串成一个可持续推进的闭环。

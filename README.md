@@ -21,19 +21,11 @@ Human decides; Agent executes.
 Agent First, Human Last.
 ```
 
-## 项目与比赛的关系
-
-Competition Agent 是独立项目，不依附于某一场比赛。
-
-它的长期目标是服务多类项目制竞赛，包括创新创业、智能体、数学建模、挑战杯、互联网+ 等场景。
-
-当前 GitHub 仓库中的 OPC 智能体大赛材料，是 Competition Agent 的第一个验证分支，用来证明它能在真实比赛中跑通从目标到提交成果的闭环。
-
 ## V1 目标
 
-V1 先选择 OPC 智能体大赛作为验证场景。
+V1 使用一场真实项目制比赛作为验证场景。
 
-目标不是把项目限定为 OPC，而是证明：
+目标不是绑定某一场比赛，而是证明：
 
 ```text
 给 Competition Agent 一个真实比赛和参赛目标，
@@ -72,13 +64,13 @@ projects/
     ├── roadmap.md
     ├── artifacts/
     │   ├── competition-agent-skill-spec.md
-    │   ├── remio-skill-content.md
+    │   ├── skill-content.md
     │   ├── project-description.md
     │   ├── demo-spec.md
     │   ├── video-script.md
     │   └── submission-checklist.md
     └── competitions/
-        └── opc-agent-competition/
+        └── example-competition/
             ├── rules.md
             ├── branch-state.md
             ├── judge-report.md
@@ -91,14 +83,12 @@ projects/
 - [项目状态](projects/competition-agent/project-state.md)
 - [动态 Roadmap](projects/competition-agent/roadmap.md)
 - [Skill 说明](projects/competition-agent/artifacts/competition-agent-skill-spec.md)
-- [remio Skill 内容草案](projects/competition-agent/artifacts/remio-skill-content.md)
+- [Skill 内容草案](projects/competition-agent/artifacts/skill-content.md)
 - [Demo 说明](projects/competition-agent/artifacts/demo-spec.md)
-- [Judge 报告](projects/competition-agent/competitions/opc-agent-competition/judge-report.md)
+- [Judge 报告](projects/competition-agent/competitions/example-competition/judge-report.md)
 - [演示视频脚本](projects/competition-agent/artifacts/video-script.md)
 - [提交清单](projects/competition-agent/artifacts/submission-checklist.md)
 
-## 当前状态
+## 作品说明
 
-本仓库已完成 Competition Agent V1 的本地项目定义、Skill 草案、Demo 方案、Judge 报告和提交材料初稿。
-
-当前 OPC 分支可作为比赛提交材料入口；Competition Agent 母项目本身保持独立，可继续适配更多比赛。
+本仓库展示 Competition Agent 的项目定义、Skill 工作流、Demo 方案、Judge 机制和比赛适配分支。比赛分支用于说明 Competition Agent 如何在真实规则下形成可提交成果；母项目本身保持独立，可继续适配更多比赛。

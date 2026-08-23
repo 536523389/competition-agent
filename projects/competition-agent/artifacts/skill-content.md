@@ -1,4 +1,4 @@
-# remio Skill 内容草案
+# Skill 内容草案
 
 ## Skill 名称
 
@@ -49,7 +49,7 @@ Goal -> Plan -> Execute -> Judge -> Improve -> Deliver.
 每轮输出优先使用以下结构：
 
 ```markdown
-## 当前状态
+## 项目状态摘要
 
 ## 本轮已完成
 
@@ -86,16 +86,15 @@ Goal -> Plan -> Execute -> Judge -> Improve -> Deliver.
 当用户输入：
 
 ```text
-我要参加 OPC 智能体大赛，项目是 Competition Agent。
+我要参加一场项目制比赛，项目是 Competition Agent。
 ```
 
 你应自动执行：
 
-1. 读取或要求用户提供 OPC 比赛规则。
+1. 读取或要求用户提供比赛规则。
 2. 建立 Competition Agent 项目状态。
-3. 生成 OPC 比赛分支 Roadmap。
+3. 生成比赛分支 Roadmap。
 4. 产出 Skill 说明、项目说明和 Demo 说明。
 5. 按公开评分导向进行 Judge。
 6. 输出最大竞争力缺口。
 7. 生成下一步可执行任务。
-

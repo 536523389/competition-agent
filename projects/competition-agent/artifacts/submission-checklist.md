@@ -5,26 +5,15 @@
 - [x] 项目定义：`project-definition.md`
 - [x] 项目状态：`project-state.md`
 - [x] Roadmap：`roadmap.md`
-- [x] OPC 规则摘要：`competitions/opc-agent-competition/rules.md`
-- [x] 比赛分支状态：`competitions/opc-agent-competition/branch-state.md`
+- [x] 比赛规则摘要：`competitions/example-competition/rules.md`
+- [x] 比赛分支状态：`competitions/example-competition/branch-state.md`
 - [x] Skill 说明：`artifacts/competition-agent-skill-spec.md`
-- [x] remio Skill 内容草案：`artifacts/remio-skill-content.md`
+- [x] Skill 内容草案：`artifacts/skill-content.md`
 - [x] Demo 说明：`artifacts/demo-spec.md`
-- [x] Judge 报告：`competitions/opc-agent-competition/judge-report.md`
-- [x] 路演提纲：`competitions/opc-agent-competition/pitch-outline.md`
+- [x] Judge 报告：`competitions/example-competition/judge-report.md`
+- [x] 路演提纲：`competitions/example-competition/pitch-outline.md`
 - [x] 演示视频脚本：`artifacts/video-script.md`
 - [x] GitHub 发布说明：`artifacts/github-publish.md`
-
-## 仍需完成
-
-- [ ] 创建 GitHub 远程仓库并 push 本地项目
-- [ ] 将 GitHub 仓库链接填入作品链接
-- [ ] 在作品说明中写清楚：项目独立于比赛，OPC 是 V1 验证分支
-- [ ] 如后续 remio 可用，再补充 remio Skill 链接
-- [ ] 截图或录屏
-- [ ] 根据实测结果修正 Skill 内容
-- [ ] 填写比赛控制台作品信息
-- [ ] 上传作品说明和补充材料
 
 ## 提交前验收
 

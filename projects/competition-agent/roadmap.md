@@ -1,6 +1,6 @@
 # Roadmap
 
-Roadmap 由 Competition Agent 母项目目标、V1 范围和当前 OPC 验证分支共同生成。
+Roadmap 由 Competition Agent 母项目目标、V1 范围和当前比赛适配分支共同生成。
 
 ## Task 1：固化项目定义
 
@@ -11,23 +11,23 @@ Roadmap 由 Competition Agent 母项目目标、V1 范围和当前 OPC 验证分
 - 产出物：`project-definition.md`
 - DoD：能用一句话、核心循环、V1 边界和 Demo 叙事解释项目。
 
-## Task 2：整理 OPC 比赛规则
+## Task 2：整理比赛规则
 
 - 类型：Agent Task
 - 优先级：P0
 - 状态：DONE
 - 目标：建立当前比赛分支的规则文件。
-- 产出物：`competitions/opc-agent-competition/rules.md`
+- 产出物：`competitions/example-competition/rules.md`
 - DoD：记录作品形态、赛道要求、公开评审导向和已知限制。
 
-## Task 2.5：明确母项目与比赛分支边界
+## Task 2.5：明确母项目与比赛适配分支边界
 
 - 类型：Agent Task
 - 优先级：P0
 - 状态：DONE
-- 目标：明确 Competition Agent 是独立项目，OPC 只是 V1 验证分支。
+- 目标：明确 Competition Agent 是独立项目，具体比赛只是 V1 验证分支。
 - 产出物：README、project-definition、project-state。
-- DoD：根层文件表达通用项目定位，比赛目录表达 OPC 适配。
+- DoD：根层文件表达通用项目定位，比赛目录表达具体赛事适配。
 
 ## Task 3：编写 Competition Agent Skill 说明
 
@@ -62,7 +62,7 @@ Roadmap 由 Competition Agent 母项目目标、V1 范围和当前 OPC 验证分
 - 优先级：P1
 - 状态：DONE
 - 目标：按公开评分导向评估当前成果，找出最大竞争力缺口。
-- 产出物：`competitions/opc-agent-competition/judge-report.md`
+- 产出物：`competitions/example-competition/judge-report.md`
 - DoD：输出强/中/弱差距判断、最大缺口和 Next Best Action。
 
 ## Task 7：发布 GitHub 项目链接
@@ -73,12 +73,3 @@ Roadmap 由 Competition Agent 母项目目标、V1 范围和当前 OPC 验证分
 - 目标：将完整项目材料推送到 GitHub，并作为作品链接提交。
 - 产出物：`https://github.com/536523389/competition-agent`
 - DoD：GitHub 默认分支能看到 README 和完整 `projects/competition-agent` 目录。
-
-## Task 8：可选 remio 实测
-
-- 类型：Human Task + Agent Task
-- 优先级：P2
-- 状态：OPTIONAL
-- 目标：如果 remio 后续可用，把 Skill 内容创建到 remio，并跑一次真实输入输出。
-- 产出物：remio Skill 链接、截图、输入输出记录。
-- DoD：能在 remio 中触发 Competition Agent Skill，并稳定输出 Roadmap、Artifact、Judge 和 Next Best Action。

@@ -98,7 +98,7 @@ Competition Agent 的输出不是单个答案，而是一组可持续维护的�
 
 用户输入：
 
-> 我要参加 OPC 智能体大赛，项目是 Competition Agent。
+> 我要参加一场项目制比赛，项目是 Competition Agent。
 
 Agent 自动完成：
 
@@ -112,7 +112,6 @@ Agent 自动完成：
 
 需要打断用户的 Key Decision：
 
-- 是否确认作品形态优先做 remio Skill，而不是 aApp
 - 是否确认 V1 首个 Demo 使用“Competition Agent builds Competition Agent”
 
 最终产出物：
@@ -125,9 +124,8 @@ Agent 自动完成：
 
 Judge 合格标准：
 
-- 作品形态符合 remio Skill / aApp 要求
+- 作品形态符合目标比赛要求
 - 能展示智能体能力、工具调用和自主性
 - 有清晰场景价值
 - 能在 3 到 5 分钟内展示 Goal -> Plan -> Execute -> Judge -> Improve
 - 有明确 Next Best Action，不停在一次性回答
-
