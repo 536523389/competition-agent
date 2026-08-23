@@ -94,4 +94,3 @@ projects/
 本仓库已完成 Competition Agent V1 的本地项目定义、Skill 草案、Demo 方案、Judge 报告和提交材料初稿。
 
 下一步是将 Skill 内容发布到可访问平台，或使用本 GitHub 仓库作为比赛作品链接与补充材料入口。
-
