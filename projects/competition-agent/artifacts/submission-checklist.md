@@ -13,6 +13,7 @@
 - [x] Judge 报告：`competitions/opc-agent-competition/judge-report.md`
 - [x] 路演提纲：`competitions/opc-agent-competition/pitch-outline.md`
 - [x] 演示视频脚本：`artifacts/video-script.md`
+- [x] GitHub 发布说明：`artifacts/github-publish.md`
 
 ## 仍需完成
 
