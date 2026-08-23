@@ -4,9 +4,9 @@
 
 比赛分支：OPC 智能体大赛
 
-作品形态：remio Skill 优先
+作品形态：GitHub 项目链接优先；remio Skill 可作为后续补充
 
-当前状态：规则摘要已建立，正在生成 Skill 说明和 Demo 方案。
+当前状态：规则摘要、项目材料、Skill 草案和 Demo 方案已建立，GitHub 项目链接已作为当前提交载体。
 
 ## 分支目标
 
@@ -41,4 +41,4 @@
 
 ## 当前 Next Best Action
 
-把 `artifacts/remio-skill-content.md` 创建到 remio 中，跑一次真实输入输出，并把结果补回提交材料。
+使用 GitHub 链接完成作品提交。如后续 remio 可用，再补充 remio Skill 链接和实测记录。

@@ -17,7 +17,7 @@ Competition Agent builds Competition Agent
 ```text
 我要参加 OPC 智能体大赛。
 我的项目是 Competition Agent。
-目标是提交一个 remio Skill，展示它能管理并推进竞赛项目。
+目标是提交一个 GitHub 项目链接，展示它能管理并推进竞赛项目。
 ```
 
 ## Demo 展示链路
@@ -59,5 +59,4 @@ Agent 汇总可提交成果包。
 
 ## 当前最大缺口
 
-需要把 Skill 说明迁移到 remio 环境中，验证其实际触发、交互和输出稳定性。
-
+需要在演示中讲清楚：Competition Agent 是独立母项目，OPC 是第一个比赛验证分支，而不是项目本身只服务 OPC。

@@ -18,11 +18,19 @@ Competition Agent 是一个以竞赛结果为导向的竞赛项目总控 Agent�
 Goal -> Plan -> Execute -> Judge -> Improve -> Deliver
 ```
 
+## 项目与比赛的关系
+
+Competition Agent 是独立母项目，不依附于某一场比赛。
+
+它的长期目标是服务多类项目制竞赛，包括创新创业、智能体、数学建模、挑战杯、互联网+ 等场景。
+
+OPC 智能体大赛只是 V1 的第一个验证分支，用来证明 Competition Agent 能在真实比赛中完成从目标到提交成果的闭环。
+
 ## V1 目标
 
-V1 不追求支持所有比赛。V1 只深度支持一场真实比赛：OPC 智能体大赛。
+V1 不追求一次性支持所有比赛。V1 选择一场真实比赛作为验证场景。
 
-V1 要证明：
+V1 要证明的不是“Competition Agent 只适合 OPC”，而是：
 
 > 给 Competition Agent 一个真实比赛和一个参赛目标，它能把用户从“我要参赛”推进到“形成可提交成果”。
 
@@ -111,7 +119,7 @@ V1 不要求真的实现四个独立 Agent，可在一个 Skill 工作流中体�
 
 Competition Agent 的第一个用户就是我们自己。
 
-Competition Agent 的第一个项目，就是帮助我们完成 Competition Agent 自己的参赛。
+Competition Agent 的第一个验证分支，就是帮助我们完成 OPC 智能体大赛参赛。
 
 演示链路：
 
@@ -133,4 +141,3 @@ Competition Agent 的第一个项目，就是帮助我们完成 Competition Agen
 核心叙事：
 
 > 大家现在看到的 Competition Agent 本身，就是 Competition Agent 管理并推进完成的第一个竞赛项目。
-

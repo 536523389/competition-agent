@@ -21,11 +21,19 @@ Human decides; Agent executes.
 Agent First, Human Last.
 ```
 
+## 项目与比赛的关系
+
+Competition Agent 是独立项目，不依附于某一场比赛。
+
+它的长期目标是服务多类项目制竞赛，包括创新创业、智能体、数学建模、挑战杯、互联网+ 等场景。
+
+当前 GitHub 仓库中的 OPC 智能体大赛材料，是 Competition Agent 的第一个验证分支，用来证明它能在真实比赛中跑通从目标到提交成果的闭环。
+
 ## V1 目标
 
-V1 深度支持一场真实比赛：OPC 智能体大赛。
+V1 先选择 OPC 智能体大赛作为验证场景。
 
-目标是证明：
+目标不是把项目限定为 OPC，而是证明：
 
 ```text
 给 Competition Agent 一个真实比赛和参赛目标，
@@ -93,4 +101,4 @@ projects/
 
 本仓库已完成 Competition Agent V1 的本地项目定义、Skill 草案、Demo 方案、Judge 报告和提交材料初稿。
 
-下一步是将 Skill 内容发布到可访问平台，或使用本 GitHub 仓库作为比赛作品链接与补充材料入口。
+当前 OPC 分支可作为比赛提交材料入口；Competition Agent 母项目本身保持独立，可继续适配更多比赛。

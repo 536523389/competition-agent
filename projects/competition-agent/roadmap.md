@@ -1,6 +1,6 @@
 # Roadmap
 
-Roadmap 由 OPC 智能体大赛规则、V1 范围和当前项目状态共同生成。
+Roadmap 由 Competition Agent 母项目目标、V1 范围和当前 OPC 验证分支共同生成。
 
 ## Task 1：固化项目定义
 
@@ -20,12 +20,21 @@ Roadmap 由 OPC 智能体大赛规则、V1 范围和当前项目状态共同生�
 - 产出物：`competitions/opc-agent-competition/rules.md`
 - DoD：记录作品形态、赛道要求、公开评审导向和已知限制。
 
+## Task 2.5：明确母项目与比赛分支边界
+
+- 类型：Agent Task
+- 优先级：P0
+- 状态：DONE
+- 目标：明确 Competition Agent 是独立项目，OPC 只是 V1 验证分支。
+- 产出物：README、project-definition、project-state。
+- DoD：根层文件表达通用项目定位，比赛目录表达 OPC 适配。
+
 ## Task 3：编写 Competition Agent Skill 说明
 
 - 类型：Agent Task
 - 优先级：P0
 - 状态：DONE
-- 目标：把 Competition Agent 的总控逻辑写成可迁移到 remio 的 Skill 说明。
+- 目标：把 Competition Agent 的总控逻辑写成可迁移到不同平台的 Skill 说明。
 - 产出物：`artifacts/competition-agent-skill-spec.md`
 - DoD：包含触发条件、输入、工作流、输出、Key Decision、DoD 验收、Judge 规则。
 
@@ -56,11 +65,20 @@ Roadmap 由 OPC 智能体大赛规则、V1 范围和当前项目状态共同生�
 - 产出物：`competitions/opc-agent-competition/judge-report.md`
 - DoD：输出强/中/弱差距判断、最大缺口和 Next Best Action。
 
-## Task 7：迁移到 remio 并实测
+## Task 7：发布 GitHub 项目链接
 
 - 类型：Human Task + Agent Task
 - 优先级：P0
-- 状态：TODO
-- 目标：把 Skill 内容创建到 remio，并跑一次真实输入输出。
-- 产出物：真实运行截图、输入输出记录、可提交作品链接或说明。
+- 状态：DONE
+- 目标：将完整项目材料推送到 GitHub，并作为作品链接提交。
+- 产出物：`https://github.com/536523389/competition-agent`
+- DoD：GitHub 默认分支能看到 README 和完整 `projects/competition-agent` 目录。
+
+## Task 8：可选 remio 实测
+
+- 类型：Human Task + Agent Task
+- 优先级：P2
+- 状态：OPTIONAL
+- 目标：如果 remio 后续可用，把 Skill 内容创建到 remio，并跑一次真实输入输出。
+- 产出物：remio Skill 链接、截图、输入输出记录。
 - DoD：能在 remio 中触发 Competition Agent Skill，并稳定输出 Roadmap、Artifact、Judge 和 Next Best Action。
