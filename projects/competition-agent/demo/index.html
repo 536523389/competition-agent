@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Competition Agent 使用真实数学建模项目展示 Goal、Plan、Execute、Judge、Improve、Deliver 闭环。">
+  <title>Competition Agent | 真实项目 Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-nav" id="siteNav">
+    <a class="brand" href="#top" aria-label="Competition Agent 首页">
+      <span class="brand-mark">CA</span>
+      <span>Competition Agent</span>
+    </a>
+    <div class="nav-meta">
+      <span class="live-dot"></span>
+      <span>CASE 001 / CUMCM C</span>
+    </div>
+    <a class="nav-link" href="#evidence">查看证据</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">REAL PROJECT · FULL LOOP · NO MOCK DATA</p>
+        <h1 aria-label="把参赛目标推进成可提交成果">
+          <span class="title-line"><span>把参赛目标</span></span>
+          <span class="title-line"><span>推进成<span class="accent">可提交成果</span></span></span>
+        </h1>
+        <p class="hero-intro reveal">用户只选择题目。Agent 读取赛题与数据，建立 Roadmap，完成建模和论文，再按评审逻辑自审、补强并交付。</p>
+        <div class="hero-proof reveal">
+          <div><strong>11</strong><span>页终稿</span></div>
+          <div><strong>6</strong><span>幅实证图</span></div>
+          <div><strong>0.800</strong><span>异常判定 ROC-AUC</span></div>
+        </div>
+      </div>
+
+      <div class="mission-shell reveal" id="demo">
+        <div class="console-topbar">
+          <span>MISSION CONTROL</span>
+          <span id="clock">00:00:00</span>
+        </div>
+        <div class="goal-card">
+          <span class="mono-label">USER GOAL</span>
+          <p>用 Competition Agent 完成 2025 全国大学生数学建模竞赛 C 题，并形成可提交论文。</p>
+        </div>
+        <div class="run-status">
+          <div>
+            <span class="status-lamp" id="statusLamp"></span>
+            <span id="runStatus">等待启动</span>
+          </div>
+          <strong id="progressText">0 / 6</strong>
+        </div>
+        <div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div>
+
+        <div class="console-body">
+          <ol class="stage-list" id="stageList" aria-label="Agent 执行阶段"></ol>
+          <div class="stage-detail" aria-live="polite">
+            <span class="mono-label" id="detailType">READY</span>
+            <h2 id="detailTitle">一次点击，观看完整闭环</h2>
+            <p id="detailBody">Demo 将按真实项目过程依次运行。每一步都对应可检查的文件、数据或判断。</p>
+            <div class="output-box" id="outputBox">
+              <span>等待 Agent 输出...</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="console-actions">
+          <button class="button button-primary" id="runButton" type="button">运行 Agent</button>
+          <button class="button button-secondary" id="pauseButton" type="button" disabled>暂停</button>
+          <button class="button button-ghost" id="resetButton" type="button">重置</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="manifesto" aria-label="核心闭环">
+      <div class="marquee-track">
+        <span>GOAL → PLAN → EXECUTE → JUDGE → IMPROVE → DELIVER&nbsp;&nbsp;</span>
+        <span aria-hidden="true">GOAL → PLAN → EXECUTE → JUDGE → IMPROVE → DELIVER&nbsp;&nbsp;</span>
+      </div>
+    </section>
+
+    <section class="section evidence-section" id="evidence">
+      <div class="section-heading reveal">
+        <p class="eyebrow">THE EVIDENCE, NOT THE CLAIM</p>
+        <h2>每一步都有<br>真实产物落地</h2>
+        <p>不是“AI 建议你怎么做”，而是 Agent 已经执行、验收并留下可复现证据。</p>
+      </div>
+
+      <div class="evidence-grid">
+        <article class="evidence-card evidence-card-wide spotlight reveal" tabindex="0" data-artifact="model">
+          <div class="card-index">01 / MODEL</div>
+          <div class="card-copy">
+            <h3>从重复测量到混合效应模型</h3>
+            <p>识别同一孕妇多次检测的相关性，以随机截距模型替代错误的独立样本假设。</p>
+          </div>
+          <div class="metric-lockup">
+            <strong>0.743</strong>
+            <span>ICC · 个体内相关</span>
+          </div>
+          <img src="assets/q1_mixed_diagnostics.png" alt="混合效应模型诊断图">
+        </article>
+
+        <article class="evidence-card spotlight reveal" tabindex="0" data-artifact="timing">
+          <div class="card-index">02 / TIMING</div>
+          <h3>检测时点不是拍脑袋</h3>
+          <p>将首次达标表达为左删失、区间删失与右删失，在 80% 可靠性约束下求最早时点。</p>
+          <div class="mini-stats">
+            <span><b>218</b> 左删失</span>
+            <span><b>40</b> 区间删失</span>
+            <span><b>9</b> 右删失</span>
+          </div>
+        </article>
+
+        <article class="evidence-card evidence-card-dark spotlight reveal" tabindex="0" data-artifact="judge">
+          <div class="card-index">03 / JUDGE</div>
+          <h3>Agent 主动否定更复杂的模型</h3>
+          <p>多因素模型并未带来更高的患者级交叉验证性能，因此保留更稳健的 BMI 基线。</p>
+          <div class="compare-row"><span>BMI only</span><b>0.732</b></div>
+          <div class="compare-row faded"><span>Multifactor</span><b>0.670</b></div>
+          <span class="decision-stamp">REJECT COMPLEXITY</span>
+        </article>
+
+        <article class="evidence-card evidence-card-tall spotlight reveal" tabindex="0" data-artifact="classification">
+          <div class="card-index">04 / VALIDATION</div>
+          <img src="assets/q4_calibration_confusion.png" alt="异常判定模型校准与混淆矩阵">
+          <h3>异常判定完成嵌套验证</h3>
+          <p>少数类权重、分组交叉验证、阈值选择、校准、混淆矩阵和 Bootstrap 区间形成闭环。</p>
+          <div class="big-metric"><strong>0.800</strong><span>ROC-AUC<br>95% CI 0.731–0.864</span></div>
+        </article>
+
+        <article class="evidence-card spotlight reveal" tabindex="0" data-artifact="delivery">
+          <div class="card-index">05 / DELIVER</div>
+          <h3>最终不是一段回答</h3>
+          <ul class="file-stack">
+            <li><span>DOCX</span> 数学建模论文最终稿</li>
+            <li><span>PY</span> 可复现分析脚本</li>
+            <li><span>CSV</span> 模型结果与区间</li>
+            <li><span>MD</span> Judge 自审报告</li>
+          </ul>
+          <button class="text-button" type="button" data-open-artifact="delivery">展开交付清单 →</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section judge-section">
+      <div class="judge-header reveal">
+        <p class="eyebrow">JUDGE DOES NOT FLATTER</p>
+        <h2>通过，不等于没有风险。</h2>
+      </div>
+      <div class="judge-layout">
+        <div class="verdict reveal">
+          <span class="verdict-mark">PASS</span>
+          <p>当前版本达到可提交状态。主模型、误差、稳健性、验证和执行边界均已明确。</p>
+        </div>
+        <div class="risk-list reveal">
+          <article><span>01</span><p><b>早期分布不可完全识别</b>218 名孕妇属于左删失。</p></article>
+          <article><span>02</span><p><b>高 BMI 组不确定性较大</b>仅 49 人，时点区间 16.25–24 周。</p></article>
+          <article><span>03</span><p><b>模型不能替代临床诊断</b>异常样本仅 65 条，只用于复核排序。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section final-section reveal">
+      <span class="mono-label">COMPETITION AGENT / CASE CLOSED</span>
+      <h2>Human decides.<br><span>Agent executes.</span></h2>
+      <p>一次真实任务，完成 Goal → Deliver 全闭环。</p>
+      <a class="button button-primary" href="#demo">重新观看 Demo</a>
+    </section>
+  </main>
+
+  <footer>
+    <span>Competition Agent · V1 Demo</span>
+    <span>本页指标均来自真实分析产物</span>
+  </footer>
+
+  <dialog class="artifact-dialog" id="artifactDialog">
+    <button class="dialog-close" id="dialogClose" type="button" aria-label="关闭">×</button>
+    <span class="mono-label" id="modalLabel">ARTIFACT</span>
+    <h2 id="modalTitle"></h2>
+    <div id="modalBody"></div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
