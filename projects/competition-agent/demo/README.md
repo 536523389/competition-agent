@@ -4,6 +4,8 @@
 
 `Goal → Plan → Execute → Judge → Improve → Deliver`
 
+在线体验：https://536523389.github.io/competition-agent/
+
 ## 本地运行
 
 在本目录启动任意静态文件服务器：
@@ -28,4 +30,3 @@ python -m http.server 4173
 - `../competitions/cumcm-2025-c/outputs/final/final_summary.json`
 - `../competitions/cumcm-2025-c/final-judge-report.md`
 - `../competitions/cumcm-2025-c/NIPT检测时点优化与胎儿异常判定-数学建模论文-最终稿.docx`
-
